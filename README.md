@@ -12,8 +12,9 @@ r-universe builds and publishes to <https://oldschoolcool2.r-universe.dev>.
   [`oldschoolcool2/rust-tte`](https://github.com/oldschoolcool2/rust-tte)
   monorepo.
 
-Install once the universe is live:
+Install (the CRAN mirror resolves `tters`' hard dependency `bit64`):
 
 ```r
-install.packages("tters", repos = "https://oldschoolcool2.r-universe.dev")
+install.packages("tters",
+  repos = c("https://oldschoolcool2.r-universe.dev", "https://cloud.r-project.org"))
 ```
