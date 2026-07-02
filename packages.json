@@ -2,6 +2,7 @@
   {
     "package": "tters",
     "url": "https://github.com/oldschoolcool2/rust-tte",
-    "subdir": "bindings/tters"
+    "subdir": "bindings/tters",
+    "branch": "main"
   }
 ]
